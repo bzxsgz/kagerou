@@ -26,6 +26,10 @@ Use this as overlay URL:
 
 ![act-settings](https://veltall.github.io/kagerou/images/act-settings.png)
 
+上面是原版，如果要用这个版本就填下面这个  
+
+> `https://bzxsgz.github.io/kagerou/overlay`
+
 ### Detailed
 
 1. Open ACT.
