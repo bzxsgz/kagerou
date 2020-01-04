@@ -42,11 +42,12 @@ const CONFIG_DEFAULT = {
       col: [
         'i.icon',
         'i.name',
-        'deal.pct',
         'deal.per_second',
+        'deal.last60',
         'deal.total',
-        'deal.critical',
+        'deal.pct',
         'deal.direct',
+        'deal.critical',
         'deal.crit_direct',
         'etc.death',
         'deal.maxhit'
@@ -425,10 +426,7 @@ const COLUMN_INDEX = {
     },
     maxhit: {
       v: 'maxhit',
-      f: (_, conf) => {
-        let map = l.skillname(_, conf.format.use_skill_aliases)
-        return `${formatDps(map[1], 0)} <small>${map[0]}</small>`
-      }
+      f: (_, conf) => l.skillname(_, conf.format.use_skill_aliases).join(': ')
     },
     maxskill: {
       v: 'maxhit',
