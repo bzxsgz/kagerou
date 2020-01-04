@@ -5,12 +5,12 @@ const CODENAME = 'point zero'
 const DESCRIPTION = '「ゼロからスタートする」'
 
 const CONFIG_DEFAULT = {
-  lang: 'ko',
+  lang: 'cn',
   style: {
     // body
     'resize-factor': 1,
     'body-margin': '0.25rem',
-    'body-font': "'Lato', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif",
+    'body-font': "'微软雅黑','Lato', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif",
     // header / ui
     'nav-opacity': 1,
     'nav-bg': 'rgba(31, 31, 31, 0.9)',
@@ -44,9 +44,12 @@ const CONFIG_DEFAULT = {
         'i.name',
         'deal.pct',
         'deal.per_second',
+        'deal.total',
         'deal.critical',
         'deal.direct',
-        'deal.crit_direct'
+        'deal.crit_direct',
+        'etc.death',
+        'deal.maxhit'
       ]
     }, {
       id: 1,
