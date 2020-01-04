@@ -456,12 +456,12 @@ label.input-value-style.job .flex-column-i-icon {
   width: 100%;
   height: 100%;
 
-  font-family: 'Roboto Mono', 'Malgun Gothic', monospace;
+  font-family: '微软雅黑', 'Roboto Mono', 'Malgun Gothic', monospace;
 }
 
 
 section[data-page=info] {
-  font-family: 'Roboto Mono', 'Source Han Sans', 'MalgunGotinc', '본고딕', '맑은 고딕', monospace;
+  font-family: '微软雅黑', 'Roboto Mono', 'Source Han Sans', 'MalgunGotinc', '본고딕', '맑은 고딕', monospace;
   font-weight: lighter;
   font-size: 0.75rem;
   text-align: center;
