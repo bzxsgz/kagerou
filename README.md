@@ -88,6 +88,10 @@ Pending features:
   follow that; then I'll use Babel.
 * Locale file is in `share/lang`.
 
+### Add  
+
+CN translate from https://gitee.com/CatGo88/kagerou
+
 ## License
 
 GPLv3.
